@@ -18,12 +18,12 @@ class DateHalper {
 
     }
 
-    static dataParaTExto(data) {
+    static dataParaTexto(data) {
 
 
         return `${data.getDate()}
-        + '/' + ${(data.getMonth() + 1)}
-        + '/' + ${data.getFullYear()}`;
+         /  ${(data.getMonth() + 1)}
+         /  ${data.getFullYear()}`;
 
     }
 
